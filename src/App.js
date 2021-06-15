@@ -16,6 +16,7 @@ export default function App() {
         ok
       </Button>
       <Canvas
+        className="canvas"
         colorManagement
         shadowMap
         pixelRatio={[1, 2]}
