@@ -1,0 +1,61 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "Parcel react",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -rf dist && mv build dist",
+    "lint": "eslint ./src/**/**.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "homepage": ".",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@react-three/drei": "^4.3.3",
+    "@react-three/fiber": "^6.1.3",
+    "classnames": "^2.3.1",
+    "glslify-bundle": "5.1.1",
+    "glslify-deps": "^1.3.2",
+    "gsap": "^3.6.1",
+    "nice-color-palettes": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-jss": "^10.1.1",
+    "react-scripts": "4.0.0",
+    "react-use-gesture": "^9.1.3",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-classes": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@babel/runtime": "7.13.8",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.1.0",
+    "babel-preset-react-app": "^10.0.0",
+    "eslint": "7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^2.1.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-eslint": "^1.0.8-2"
+  }
+}
